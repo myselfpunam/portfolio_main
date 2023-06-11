@@ -2339,22 +2339,19 @@ textarea.form-control {
   border-radius: 0.25rem;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
-.btn:hover {
-  
-  background-color: #e93535ea;
-  
-}
 
 
 @media (prefers-reduced-motion: reduce) {
   .btn {
     transition: none;
+
   }
 }
 
 .btn:hover {
   color: #0a0a09;
   text-decoration: none;
+  background-color: #e93535ea;
 }
 
 .btn:focus, .btn.focus {
